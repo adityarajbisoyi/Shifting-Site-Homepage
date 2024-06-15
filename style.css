@@ -1,0 +1,55 @@
+
+.bg-body-tertiary,
+.h-100 {
+  --bs-bg-opacity: 1;
+  background-color: rgb(55, 69, 81) !important;
+  color: lightblue !important;
+}
+.navbar {
+  background-color: yellowgreen !important;
+}
+.btn-outline-secondary,
+.btn-outline-light {
+  color: darkturquoise;
+}
+.pb-3 .fs-4 {
+  font-style: italic;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.pb-3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.carousel-caption {
+  font-family: "Playwrite FR Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#c101 {
+  color: lightgreen;
+}
+#c102 {
+  color: gold;
+}
+#c103 {
+  color: purple;
+}
+.lastbox {
+  background-color: var(--bs-body-bg);
+}
